@@ -1,0 +1,29 @@
+html{
+  background-color: #2D2D30;
+  color: #F1F1F1;
+}
+
+a{
+  color: #D0D0D0;
+  text-decoration: none;
+}
+
+main a{
+  color: #0097FB;
+}
+
+nav a{
+  color: #D0D0D0;
+}
+
+nav li{
+  background-color: #007ACC;
+}
+
+.content article{
+  background-color: #252526;
+}
+
+footer{
+  background-color: #68217A;
+}
