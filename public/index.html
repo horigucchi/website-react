@@ -46,7 +46,16 @@
     }(window.location))
   </script>
   <!-- End Single Page Apps for GitHub Pages -->
-
+  <script>
+    // GitHub Pages での SPA アドレス解決用
+    (function () {
+      const query = window.location.search;
+      if (query.startsWith('?p=')) {
+        const route = decodeURIComponent(query.substr(3));
+        window.history.replaceState(null, null, route);
+      }
+    })();
+  </script>
   <title>React App</title>
 </head>
 
