@@ -1,5 +1,5 @@
 {
-  "name": "react-web",
+  "name": "website-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,7 +41,19 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^7.13.0",
     "gh-pages": "^3.1.0"
   },
-  "homepage": "https://horigucchi.github.io/website-react/"
+  "homepage": "https://horigucchi.github.io/website-react/",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horigucchi/website-react.git"
+  },
+  "author": "nkc_Horiguchi <nkcgta.yuki.horiguchi@gmail.com>",
+  "license": "MIT",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "bugs": {
+    "url": "https://github.com/horigucchi/website-react/issues"
+  }
 }
