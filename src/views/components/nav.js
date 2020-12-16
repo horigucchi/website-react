@@ -20,6 +20,27 @@ export function Nav() {
             >
                 ABOUT
             </NavLink>
+            <NavLink
+                exact
+                to={url + "/skills"}
+                activeStyle={{ color: "#aaa", textDecoration: "underline" }}
+            >
+                SKILLS
+            </NavLink>
+            <NavLink
+                exact
+                to={url + "/works"}
+                activeStyle={{ color: "#aaa", textDecoration: "underline" }}
+            >
+                WORKS
+            </NavLink>
+            <NavLink
+                exact
+                to={url + "/contact"}
+                activeStyle={{ color: "#aaa", textDecoration: "underline" }}
+            >
+                CONTACT
+            </NavLink>
         </>
     );
 }
